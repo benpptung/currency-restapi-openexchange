@@ -1,0 +1,25 @@
+{
+  "name": "currency-restapi-openexchange",
+  "version": "1.0.0",
+  "description": "openexchangerates.org rest api wrapper",
+  "author": "Ben P.P. Tung",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benpptung/currency-restapi-openexchange.git"
+  },
+  "main": "index.js",
+  "keywords": ["exchange", "rates", "openexchangerates"],
+  "scripts": {
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "superagent": "^1.8.3",
+    "util-superagent-serializer": "^1.0.0"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.4.5"
+  }
+}

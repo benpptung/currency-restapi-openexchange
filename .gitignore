@@ -1,0 +1,9 @@
+.idea
+.DS_Store
+node_modules
+!test/site/node_modules
+.cache
+log
+bower_components
+npm-debug.log
+trial
