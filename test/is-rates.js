@@ -29,7 +29,14 @@ describe('isRates()', _=>{
   describe('return true if result is valid', function() {
 
     it('accept valid rates', function() {
+      expect(isRates(rates)).to.not.be.ok();
+
+      rates.rates.USD = 0.9999;
+      expect(isRates(rates)).to.not.be.ok();
+
+      rates.rates.USD = 1;
       expect(isRates(rates)).to.be.ok();
+
     });
 
     it('accept rate is is decimal string', function() {
